@@ -76,20 +76,25 @@ namespace ListLibrary.Classes
 
         public void RemoveAt(int index)
         {
+            if (index < 0 || index >= count)
+                throw new ListException("Index is out of range");
+
             tempArray = new T[--count];
             for (int i = 0; i < index; i++)
                 tempArray[i] = array[i];
             for (int i = index; i < count; i++)
                 tempArray[i] = array[i + 1];
             array = tempArray;
+
+            count--;
         }
 
         public IList<T> subList(int fromIndex, int toIndex)
         {
-            if (fromIndex < 0 || fromIndex > count)
+            if (fromIndex < 0 || fromIndex >= count)
                 throw new ListException("fromIndex is out of range");
 
-            if (toIndex < 0 || toIndex > count)
+            if (toIndex < 0 || toIndex >= count)
                 throw new ListException("toIndex is out of range");
 
             ArrayList<T> sub = new ArrayList<T>();
@@ -108,7 +113,7 @@ namespace ListLibrary.Classes
         {
             get
             {
-                if (index < 0 || index > count)
+                if (index < 0 || index >= count)
                     throw new ListException("Index is out of range");
 
                 return array[index];
@@ -118,7 +123,10 @@ namespace ListLibrary.Classes
                 if (index < 0 || index > count)
                     throw new ListException("Index is out of range");
 
-                array[index] = value;
+                if (index == count)
+                    Add(value);
+                else
+                    array[index] = value;
             }
         }
 

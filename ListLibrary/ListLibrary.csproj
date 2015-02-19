@@ -41,6 +41,9 @@
   <ItemGroup>
     <Compile Include="Classes\ArrayList.cs" />
     <Compile Include="Classes\IList.cs" />
+    <Compile Include="Classes\LinkedList.cs" />
+    <Compile Include="Classes\ListUtils.cs" />
+    <Compile Include="Classes\UnmutableList.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
