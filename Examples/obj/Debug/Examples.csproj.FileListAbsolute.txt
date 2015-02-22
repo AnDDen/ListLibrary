@@ -1,0 +1,8 @@
+D:\2 Курс\Лабы\OOP\ListLibrary\Examples\bin\Debug\Examples.exe.config
+D:\2 Курс\Лабы\OOP\ListLibrary\Examples\bin\Debug\Examples.exe
+D:\2 Курс\Лабы\OOP\ListLibrary\Examples\bin\Debug\Examples.pdb
+D:\2 Курс\Лабы\OOP\ListLibrary\Examples\bin\Debug\ListLibrary.dll
+D:\2 Курс\Лабы\OOP\ListLibrary\Examples\bin\Debug\ListLibrary.pdb
+D:\2 Курс\Лабы\OOP\ListLibrary\Examples\obj\Debug\Examples.csprojResolveAssemblyReference.cache
+D:\2 Курс\Лабы\OOP\ListLibrary\Examples\obj\Debug\Examples.exe
+D:\2 Курс\Лабы\OOP\ListLibrary\Examples\obj\Debug\Examples.pdb

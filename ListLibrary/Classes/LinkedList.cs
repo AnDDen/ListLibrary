@@ -54,7 +54,7 @@ namespace ListLibrary.Classes
             while (p.Next != null)
                 if (p.Data.Equals(value)) return true;
                 else p = p.Next;
-            return false;            
+            return false;
         }
 
         public int IndexOf(T value)
@@ -63,8 +63,8 @@ namespace ListLibrary.Classes
             Node<T> p = first;
             while (p.Next != null)
                 if (p.Data.Equals(value)) return i;
-                else 
-                { 
+                else
+                {
                     p = p.Next;
                     i++;
                 }
@@ -107,9 +107,9 @@ namespace ListLibrary.Classes
 
             int i = 0;
             Node<T> p = first;
-            while (i != index - 1) 
-            { 
-                p = p.Next; 
+            while (i != index - 1)
+            {
+                p = p.Next;
                 i++;
             }
             p.Next = p.Next.Next;
@@ -185,12 +185,17 @@ namespace ListLibrary.Classes
 
         public IEnumerator<T> GetEnumerator()
         {
-            throw new NotImplementedException();
+            Node<T> p = first;
+            while (p != null)
+            {
+                yield return p.Data;
+                p = p.Next;
+            }
         }
 
         System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
         {
-            throw new NotImplementedException();
+            return GetEnumerator();
         }
     }
 }
