@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ListLibrary.Classes
+namespace ListLibrary
 {
     public class ArrayList<T> : IList<T>
     {
@@ -98,7 +98,7 @@ namespace ListLibrary.Classes
                 throw new ListException("toIndex is out of range");
 
             ArrayList<T> sub = new ArrayList<T>();
-            for (int i = fromIndex; i < toIndex; i++)
+            for (int i = fromIndex; i <= toIndex; i++)
                 sub.Add(array[i]);
 
             return sub;

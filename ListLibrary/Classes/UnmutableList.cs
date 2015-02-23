@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ListLibrary.Classes
+namespace ListLibrary
 {
     public class UnmutableList<T> : IList<T>
     {
@@ -24,7 +24,7 @@ namespace ListLibrary.Classes
 
         public void Clear()
         {
-            baseList.Clear();
+            throw new ListException("UnmutableList can not be cleared");
         }
 
         public bool Contains(T value)

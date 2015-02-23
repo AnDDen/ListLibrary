@@ -6,3 +6,11 @@ D:\2 Курс\Лабы\OOP\ListLibrary\Examples\bin\Debug\ListLibrary.pdb
 D:\2 Курс\Лабы\OOP\ListLibrary\Examples\obj\Debug\Examples.csprojResolveAssemblyReference.cache
 D:\2 Курс\Лабы\OOP\ListLibrary\Examples\obj\Debug\Examples.exe
 D:\2 Курс\Лабы\OOP\ListLibrary\Examples\obj\Debug\Examples.pdb
+C:\Users\fgnmgm\Documents\GitHub\ListLibrary\Examples\bin\Debug\Examples.exe.config
+C:\Users\fgnmgm\Documents\GitHub\ListLibrary\Examples\obj\Debug\Examples.exe
+C:\Users\fgnmgm\Documents\GitHub\ListLibrary\Examples\obj\Debug\Examples.pdb
+C:\Users\fgnmgm\Documents\GitHub\ListLibrary\Examples\obj\Debug\Examples.csprojResolveAssemblyReference.cache
+C:\Users\fgnmgm\Documents\GitHub\ListLibrary\Examples\bin\Debug\Examples.exe
+C:\Users\fgnmgm\Documents\GitHub\ListLibrary\Examples\bin\Debug\Examples.pdb
+C:\Users\fgnmgm\Documents\GitHub\ListLibrary\Examples\bin\Debug\ListLibrary.dll
+C:\Users\fgnmgm\Documents\GitHub\ListLibrary\Examples\bin\Debug\ListLibrary.pdb

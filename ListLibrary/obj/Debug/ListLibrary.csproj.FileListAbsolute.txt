@@ -3,3 +3,8 @@ D:\2 Курс\Лабы\OOP\ListLibrary\ListLibrary\bin\Debug\ListLibrary.dll
 D:\2 Курс\Лабы\OOP\ListLibrary\ListLibrary\bin\Debug\ListLibrary.pdb
 D:\2 Курс\Лабы\OOP\ListLibrary\ListLibrary\obj\Debug\ListLibrary.dll
 D:\2 Курс\Лабы\OOP\ListLibrary\ListLibrary\obj\Debug\ListLibrary.pdb
+C:\Users\fgnmgm\Documents\GitHub\ListLibrary\ListLibrary\bin\Debug\ListLibrary.dll
+C:\Users\fgnmgm\Documents\GitHub\ListLibrary\ListLibrary\bin\Debug\ListLibrary.pdb
+C:\Users\fgnmgm\Documents\GitHub\ListLibrary\ListLibrary\obj\Debug\ListLibrary.csprojResolveAssemblyReference.cache
+C:\Users\fgnmgm\Documents\GitHub\ListLibrary\ListLibrary\obj\Debug\ListLibrary.dll
+C:\Users\fgnmgm\Documents\GitHub\ListLibrary\ListLibrary\obj\Debug\ListLibrary.pdb

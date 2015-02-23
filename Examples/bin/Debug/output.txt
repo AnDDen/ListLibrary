@@ -1,0 +1,164 @@
+***** Testing LinkedList *****
+Adding numbers from 1 to 10 to list
+1 2 3 4 5 6 7 8 9 10 
+
+
+Inserting 100 on position 0
+100 1 2 3 4 5 6 7 8 9 10 
+
+
+Inserting 1000 on position 11
+100 1 2 3 4 5 6 7 8 9 10 1000 
+
+
+Inserting 10000 on position 5
+100 1 2 3 4 10000 5 6 7 8 9 10 1000 
+
+
+Trying to insert 100 on position 15. Must be exception.
+Index is out of range
+
+
+Removing 100 from list
+1 2 3 4 10000 5 6 7 8 9 10 1000 
+
+
+Removing element on position 0 from list
+2 3 4 10000 5 6 7 8 9 10 1000 
+
+
+Checking if 10000 is in list: True
+Checking if 3 is in list: True, it's index = 1
+
+
+Creating subList; fromIndex = 3; toIndex = 6;
+10000 5 6 7 
+
+
+Count of elements in list: 11
+
+Clear list
+
+Count of elements in list: 0
+
+Writing elements of the list: 
+if no one, then ok
+
+
+
+Adding numbers from 1 to 10 to list
+
+
+
+***** Testing UnmutableList *****
+
+Creating UnmutableList on base of list
+
+Trying to add 12
+New elements can not be added to UnmutableList
+if exception, then ok
+1 2 3 4 5 6 7 8 9 10 
+
+
+Trying to insert 1000 on position 2
+New elements can not be added to UnmutableList
+if exception, then ok
+1 2 3 4 5 6 7 8 9 10 
+
+
+Trying to remove 5 from list
+Elements can not be removed from UnmutableList
+if exception, then ok
+1 2 3 4 5 6 7 8 9 10 
+
+
+Checking if 10000 is in list: False
+
+Checking if 3 is in list: True, it's index = 2
+
+
+
+Creating subList; fromIndex = 3; toIndex = 6;
+
+4 5 6 7 
+
+
+Count of elements in list: 10
+
+Clear list
+
+Elements can not be removed from UnmutableList
+Count of elements in list: 10
+
+
+
+
+
+***** Testing ArrayList *****
+
+Adding numbers from 1 to 10 to list
+1 2 3 4 5 6 7 8 9 10 
+
+
+Inserting 100 on position 0
+100 1 2 3 4 5 6 7 8 9 10 
+
+
+Inserting 1000 on position 11
+100 1 2 3 4 5 6 7 8 9 10 1000 
+
+
+Inserting 10000 on position 5
+100 1 2 3 4 10000 5 6 7 8 9 10 1000 
+
+
+Trying to insert 100 on position 15. Must be exception.
+Index is out of range
+
+
+Removing 100 from list
+1 2 3 4 10000 5 6 7 8 9 10 
+
+
+Removing element on position 0 from list
+2 3 4 10000 5 6 7 8 9 
+
+
+Checking if 10000 is in list: True
+Checking if 3 is in list: True, it's index = 1
+
+
+Creating subList; fromIndex = 3; toIndex = 6;
+10000 5 6 7 
+
+
+Count of elements in list: 9
+
+Clear list
+
+Count of elements in list: 0
+
+Writing elements of the list: 
+if no one, then ok
+
+
+
+
+
+
+***** Testing ListUtils *****
+
+Adding numbers from 1 to 10 to list
+1 2 3 4 5 6 7 8 9 10 
+Is there even element: True
+First even element: 2, it's index: 1
+Last even element: 10, it's index: 9
+All even elements: 2 4 6 8 10
+Sorting list by decrease
+10 9 8 7 6 5 4 3 2 1 
+Check if all elements of list are even: False
+Check if all elements of list are less than 12: True
+Convert int list to string list
+strlist type: ArrayList`1
+Elements of strlist
+10 9 8 7 6 5 4 3 2 1 

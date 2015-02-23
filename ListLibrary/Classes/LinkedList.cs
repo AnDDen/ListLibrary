@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ListLibrary.Classes
+namespace ListLibrary
 {
     internal class Node<T>
     {
@@ -76,27 +76,40 @@ namespace ListLibrary.Classes
             if (index < 0 || index > count)
                 throw new ListException("Index is out of range");
 
-            int i = 0;
-            Node<T> p = first;
-            while (i != index - 1)
+            if (index == 0)
             {
-                p = p.Next;
-                i++;
+                Node<T> q = new Node<T>(value, first);
+                first = q;
             }
-            p.Next = new Node<T>(value, p.Next);
+            else
+            {
+                int i = 0;
+                Node<T> p = first;
+                while (i != index - 1)
+                {
+                    p = p.Next;
+                    i++;
+                }
+                p.Next = new Node<T>(value, p.Next);
+            }
             count++;
         }
 
         public void Remove(T value)
         {
             Node<T> p = first;
-            while (p.Next != null)
-                if (p.Next.Data.Equals(value))
-                {
-                    p.Next = p.Next.Next;
-                    return;
-                }
-                else p = p.Next;
+            if (p.Data.Equals(value))
+                first = first.Next; 
+            else
+            {
+                while (p.Next != null)
+                    if (p.Next.Data.Equals(value))
+                    {
+                        p.Next = p.Next.Next;
+                        return;
+                    }
+                    else p = p.Next;
+            }
             count--;
         }
 
@@ -105,14 +118,21 @@ namespace ListLibrary.Classes
             if (index < 0 || index >= count)
                 throw new ListException("Index is out of range");
 
-            int i = 0;
-            Node<T> p = first;
-            while (i != index - 1)
+            if (index == 0)
             {
-                p = p.Next;
-                i++;
+                first = first.Next;
             }
-            p.Next = p.Next.Next;
+            else
+            {
+                int i = 0;
+                Node<T> p = first;
+                while (i != index - 1)
+                {
+                    p = p.Next;
+                    i++;
+                }
+                p.Next = p.Next.Next;
+            }
             count--;
         }
 
